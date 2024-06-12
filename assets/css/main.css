@@ -1263,10 +1263,10 @@ input, select, textarea {
 	}
 
 		#header > * {
-			-moz-transition: opacity 0.325s ease-in-out;
-			-webkit-transition: opacity 0.325s ease-in-out;
-			-ms-transition: opacity 0.325s ease-in-out;
-			transition: opacity 0.325s ease-in-out;
+			-moz-transition: opacity 0.725s ease-in-out;
+			-webkit-transition: opacity 0.725s ease-in-out;
+			-ms-transition: opacity 0.725s ease-in-out;
+			transition: opacity 0.725s ease-in-out;
 			position: relative;
 			margin-top: 2.5rem;
 
@@ -1307,7 +1307,7 @@ input, select, textarea {
 			border-style: solid;
 			border-color: blanchedalmond;
 			border-top-width: 0px;
-			border-bottom-width: 4px;
+			border-bottom-width: 3px;
 
 			max-width: 100%;
 
