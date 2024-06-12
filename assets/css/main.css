@@ -1253,10 +1253,10 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+		-moz-transition: -moz-transform 0.725s ease-in-out, -moz-filter 0.725s ease-in-out, opacity 0.725s ease-in-out;
+		-webkit-transition: -webkit-transform 0.725s ease-in-out, -webkit-filter 0.725s ease-in-out, opacity 0.725s ease-in-out;
+		-ms-transition: -ms-transform 0.725s ease-in-out, -ms-filter 0.725s ease-in-out, opacity 0.725s ease-in-out;
+		transition: transform 0.725s ease-in-out, filter 0.725s ease-in-out, opacity 0.725s ease-in-out;
 
 		max-width: 100%;
 		text-align: center;
@@ -1268,7 +1268,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
-			margin-top: 3.5rem;
+			margin-top: 2.5rem;
 
 		}
 
@@ -1438,7 +1438,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header > * {
-				margin-top: 2rem;
+				margin-top: 0.5rem;
 			}
 
 				#header > *:before {
