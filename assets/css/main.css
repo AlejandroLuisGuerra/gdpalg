@@ -1305,9 +1305,9 @@ input, select, textarea {
 
 		#header .content {
 			border-style: solid;
-			border-color: rgb(39, 39, 39);
-			border-top-width: 4.5px;
-			border-bottom-width: 4.5px;
+			border-color: rgb(29, 29, 29);
+			border-top-width: 4px;
+			border-bottom-width: 4px;
 
 			max-width: 100%;
 
@@ -1552,7 +1552,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(20, 22, 22, 0.85);
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1598,11 +1598,11 @@ input, select, textarea {
 				}
 
 				#main article .close:hover:before {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: rgba(73, 73, 73, 0.075);
 				}
 
 				#main article .close:active:before {
-					background-color: rgba(255, 255, 255, 0.175);
+					background-color: rgba(82, 82, 82, 0.175);
 				}
 
 		@media screen and (max-width: 736px) {
