@@ -1305,7 +1305,7 @@ input, select, textarea {
 
 		#header .content {
 			border-style: solid;
-			border-color: rgb(29, 29, 29);
+			border-color: rgb(19, 19, 19);
 			border-top-width: 4px;
 			border-bottom-width: 4px;
 
@@ -1552,7 +1552,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(20, 22, 22, 0.85);
+			background-color: rgba(17, 17, 17, 0.85);
 			border-radius: 4px;
 			opacity: 0;
 		}
