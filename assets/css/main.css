@@ -1438,7 +1438,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header > * {
-				margin-top: 0.5rem;
+				margin-top: 0.8rem;
 			}
 
 				#header > *:before {
@@ -1448,7 +1448,7 @@ input, select, textarea {
 
 			#header .logo {
 				width: 4.75rem;
-				height: 4.75rem;
+				height: 6.75rem;
 				line-height: 4.75rem;
 			}
 
