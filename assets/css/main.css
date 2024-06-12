@@ -1305,8 +1305,8 @@ input, select, textarea {
 
 		#header .content {
 			border-style: solid;
-			border-color: rgb(19, 19, 19);
-			border-top-width: 4px;
+			border-color: blanchedalmond;
+			border-top-width: 0px;
 			border-bottom-width: 4px;
 
 			max-width: 100%;
