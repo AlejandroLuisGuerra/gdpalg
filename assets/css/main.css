@@ -1292,6 +1292,7 @@ input, select, textarea {
 			}
 
 		#header .logo {
+			
 			width: 2.5rem;
 			height: 1rem;
 			line-height: 2rem;
@@ -1434,6 +1435,8 @@ input, select, textarea {
 				display: none;
 			}
 
+
+			
 		}
 
 		@media screen and (max-width: 736px) {
