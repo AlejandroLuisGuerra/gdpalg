@@ -1304,14 +1304,7 @@ input, select, textarea {
 			}
 
 
-			body {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				height: 100vh;
-				background-color: #f0f0f0;
-				margin: 0;
-			}
+
 			
 			.circle-container {
 				width: 200px;
@@ -1340,7 +1333,7 @@ input, select, textarea {
 
 			text {
 				font-family:'Times New Roman', Times, serif;
-				font-size: 7.05px;
+				font-size: 5.06px;
 				text-transform: uppercase;
 				fill: #ffffff;
 				font-weight: normal;
