@@ -72,6 +72,56 @@ input, select, textarea {
 	appearance: none;
 }
 
+.circle-container {
+	width: 200px;
+	height: 200px;
+	background-color: #ffffff00;
+}
+
+.circle-svg {
+	transform: rotate(0deg);
+	animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+path {
+	stroke: none;
+	fill: none;
+}
+
+text {
+	font-family:'Times New Roman', Times, serif;
+	font-size: 5.06px;
+	text-transform: uppercase;
+	fill: #ffffff;
+	font-weight: normal;
+}
+
+.logo-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 40px;
+}
+
+.center-logo {
+	width: 80px;
+	height: 40px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -1306,55 +1356,7 @@ input, select, textarea {
 
 
 			
-			.circle-container {
-				width: 200px;
-				height: 200px;
-				background-color: #ffffff00;
-			}
-			
-			.circle-svg {
-				transform: rotate(0deg);
-				animation: spin 30s linear infinite;
-			}
-			
-			@keyframes spin {
-				from {
-					transform: rotate(0deg);
-				}
-				to {
-					transform: rotate(360deg);
-				}
-			}
-			
-			path {
-				stroke: none;
-				fill: none;
-			}
 
-			text {
-				font-family:'Times New Roman', Times, serif;
-				font-size: 5.06px;
-				text-transform: uppercase;
-				fill: #ffffff;
-				font-weight: normal;
-			}
-
-			.logo-container {
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				width: 80px;
-				height: 40px;
-			}
-			
-			.center-logo {
-				width: 80px;
-				height: 40px;
-			}
 
 
 
