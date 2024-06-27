@@ -1319,7 +1319,7 @@ input, select, textarea {
 				background-color: #ffffff00;
 			}
 			
-			svg {
+			.circle-svg {
 				transform: rotate(0deg);
 				animation: spin 30s linear infinite;
 			}
@@ -1346,7 +1346,22 @@ input, select, textarea {
 				font-weight: normal;
 			}
 
-
+			.logo-container {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 80px;
+				height: 40px;
+			}
+			
+			.center-logo {
+				width: 80px;
+				height: 40px;
+			}
 
 
 
