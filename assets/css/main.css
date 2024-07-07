@@ -88,7 +88,7 @@ input, select, textarea {
 		transform: rotate(0deg);
 	}
 	to {
-		transform: rotate(360deg);
+		transform: rotate(-360deg);
 	}
 }
 
@@ -99,7 +99,7 @@ path {
 
 text {
 	font-family:'Times New Roman', Times, serif;
-	font-size: 5.06px;
+	font-size: 5.25px;
 	text-transform: uppercase;
 	fill: #ffffff;
 	font-weight: normal;
