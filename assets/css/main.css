@@ -73,8 +73,8 @@ input, select, textarea {
 }
 
 .circle-container {
-	width: 140px;
-	height: 140px;
+	width: 240px;
+	height: 240px;
 	background-color: #ffffff00;
 }
 
@@ -122,47 +122,11 @@ path {
 
 text {
 	font-family:'Times New Roman', Times, serif;
-	font-size: 5.25px;
+	font-size: 5.38px;
 	text-transform: uppercase;
 	fill: #ffffff;
 	font-weight: normal;
 }
-
-
-.vertical-text-container {
-	position: fixed; /* Fixed position to keep it on the left border */
-	top: 0;
-	left: -1.7em;
-	width: 100px; /* Adjust width as needed */
-	height: 100%; /* Full height of the viewport */
-	overflow: hidden; /* Hide overflow */
-	display: flex;
-	align-items: left; /* Center text vertically */
-	justify-content: center; /* Center text horizontally */
-	
-  }
-  
-  .vertical-text {
-	writing-mode: vertical-rl; /* Text writing mode */
-	text-orientation: sideways-right; /* Text orientation */
-	font-size: 1rem; /* Adjust font size to match rotating circle text */
-	font-weight: 300; /* Adjust font weight to match rotating circle text */
-	color: #ffffff; /* Text color */
-	white-space: nowrap;
-	animation: scroll-vertical 40s linear infinite; /* Scrolling animation */
-	transform: rotate(180deg);
-	padding-bottom: 20px;
-}
-
-  
-  @keyframes scroll-vertical {
-	0% {
-	  transform: translateY(-5%) rotate(180deg); /* Start below the viewport */
-	}
-	100% {
-	  transform: translateY(100%) rotate(180deg); /* End above the viewport */
-	}
-  }
 
 
 .logo-container {
