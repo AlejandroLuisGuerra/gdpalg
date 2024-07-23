@@ -122,7 +122,7 @@ path {
 
 text {
 	font-family:'Times New Roman', Times, serif;
-	font-size: 5.38px;
+	font-size: 5.37px;
 	text-transform: uppercase;
 	fill: #ffffff;
 	font-weight: normal;
@@ -1266,7 +1266,7 @@ text {
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-color: #060606;
-			background-image: url("../../images/133dark.png");
+			background-image: url("../../images/no137dark.png");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
