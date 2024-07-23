@@ -132,7 +132,7 @@ text {
 .vertical-text-container {
 	position: fixed; /* Fixed position to keep it on the left border */
 	top: 0;
-	left: -1.3em;
+	left: -1.7em;
 	width: 100px; /* Adjust width as needed */
 	height: 100%; /* Full height of the viewport */
 	overflow: hidden; /* Hide overflow */
