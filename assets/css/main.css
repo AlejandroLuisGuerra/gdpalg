@@ -73,24 +73,47 @@ input, select, textarea {
 }
 
 .circle-container {
-	width: 200px;
-	height: 200px;
+	width: 240px;
+	height: 240px;
 	background-color: #ffffff00;
 }
 
 .circle-svg {
-	transform: rotate(0deg);
-	animation: spin 30s linear infinite;
-}
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: rotate 50s linear infinite;
+  }
 
-@keyframes spin {
+.outer-circle {
+	animation: rotate-slow 70s linear infinite; /* Slower rotation for the outer circle */
+  }
+
+  .logo-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
+  @keyframes rotate {
 	from {
-		transform: rotate(0deg);
+	  transform: translate(-50%, -50%) rotate(0deg);
 	}
 	to {
-		transform: rotate(-360deg);
+	  transform: translate(-50%, -50%) rotate(-360deg);
 	}
-}
+  }
+  
+  @keyframes rotate-slow {
+	from {
+	  transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+	  transform: translate(-50%, -50%) rotate(-360deg);
+	}
+  }
 
 path {
 	stroke: none;
@@ -104,6 +127,8 @@ text {
 	fill: #ffffff;
 	font-weight: normal;
 }
+
+
 
 .logo-container {
 	position: absolute;
