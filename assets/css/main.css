@@ -42,6 +42,11 @@ section, summary, time, mark, audio, video {
 		transition: opacity 1s ease-out, visibility 1s ease-out;
 	  }
 
+	  #loading-screen .logo {
+		position: relative; /* Position relative to move it within the flex container */
+ 		top: -172px;
+
+	  }
 	  #loading-screen.hidden {
 		opacity: 0;
 		visibility: hidden;
