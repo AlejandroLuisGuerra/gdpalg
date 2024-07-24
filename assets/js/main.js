@@ -3,7 +3,24 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+const loadingScreen = document.getElementById('loading-screen');
+const wrapper = document.getElementById('wrapper');
 
+
+
+
+  window.addEventListener('load', function() {
+	
+	setTimeout(function() {
+        
+          console.log('Hiding loading screen'); // Hide loading screen
+          loadingScreen.classList.add('hidden');
+		  console.log('Showing main content...');
+		  wrapper.classList.add('visible');  // Show main content
+        
+		}, 1500);
+	
+	});
 (function($) {
 
 	var	$window = $(window),
@@ -397,5 +414,8 @@
 					$window.on('load', function() {
 						$main._show(location.hash.substr(1), true);
 					});
+
+					
+
 
 })(jQuery);
