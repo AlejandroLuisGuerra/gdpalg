@@ -8,7 +8,6 @@ const wrapper = document.getElementById('wrapper');
 
 
 
-
   window.addEventListener('load', function() {
 	
 	setTimeout(function() {

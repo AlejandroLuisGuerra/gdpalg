@@ -23,11 +23,12 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	
-	overflow: hidden;
-	
+
 	vertical-align: baseline;}
 
+body.is-preloaded {
+	overflow: hidden;
+}
 	#loading-screen {
 		position: fixed;
 		top: 0;
@@ -37,6 +38,7 @@ section, summary, time, mark, audio, video {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
 		background-color: #000000; /* Background color of loading screen */
 		z-index: 9999; /* Ensure it covers everything */
 		transition: opacity 1s ease-out, visibility 1s ease-out;
@@ -1021,7 +1023,7 @@ text {
 
 			ul.icons li a {
 				border-radius: 100%;
-				box-shadow: inset 0 0 0 1px #ffffff;
+				box-shadow: inset 0 0 0 1.3px #ffffff;
 				display: inline-block;
 				height: 2.25rem;
 				line-height: 2.25rem;
@@ -1030,7 +1032,7 @@ text {
 			}
 
 				ul.icons li a:hover {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: rgba(255, 255, 255, 0.279);
 				}
 
 				ul.icons li a:active {
