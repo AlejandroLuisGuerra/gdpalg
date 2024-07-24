@@ -18,6 +18,9 @@ const wrapper = document.getElementById('wrapper');
 		  console.log('Showing main content...');
 		  wrapper.classList.add('visible');  // Show main content
         
+		  document.body.style.overflow = 'auto';
+		  document.documentElement.style.overflow = 'auto';
+
 		}, 1500);
 	
 	});
