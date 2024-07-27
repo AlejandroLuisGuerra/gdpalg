@@ -46,7 +46,7 @@ body.is-preloaded {
 
 	  #loading-screen .logo {
 		position: relative; /* Position relative to move it within the flex container */
- 		top: -172px;
+ 		top: 0;
 
 	  }
 	  #loading-screen.hidden {
