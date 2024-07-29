@@ -54,7 +54,7 @@ body.is-preloaded {
 		visibility: hidden;
 	  }
 	#loading-screen img {
-		width: 50px; /* Adjust logo size as needed */
+		width: 18px; /* Adjust logo size as needed */
 		height: auto;
 	  }
 
