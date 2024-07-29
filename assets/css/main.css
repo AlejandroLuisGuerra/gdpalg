@@ -261,7 +261,7 @@ text {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		border-bottom: dotted 0px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
 	}
@@ -746,6 +746,9 @@ text {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+
+
+
 /* Image */
 
 	.image {
@@ -768,7 +771,7 @@ text {
 	.image.main img {
 		width: 100%;
 	display: block;
-	opacity: 0;
+	
 	transition: opacity 1.5s ease-in-out;
 	border: 2px salmon;
 	}
