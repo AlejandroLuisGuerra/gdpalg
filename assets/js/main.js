@@ -72,6 +72,26 @@ const wrapper = document.getElementById('wrapper');
 
 		}
 
+	// img fade
+
+	$(document).ready(function() {
+		$('.image.main img').each(function() {
+		  var $img = $(this);
+		  if ($img[0].complete) {
+			$img.addClass('show');
+		  } else {
+			$img.on('load', function() {
+			  $img.addClass('show');
+			});
+		  }
+		});
+	  });
+
+
+
+
+
+
 	// Nav.
 		var $nav = $header.children('nav'),
 			$nav_li = $nav.find('li');
