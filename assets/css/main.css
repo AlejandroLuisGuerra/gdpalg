@@ -715,8 +715,10 @@ text {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+
 	}
 
+	
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -732,6 +734,7 @@ text {
 
 		.icon > .label {
 			display: none;
+			
 		}
 
 		.icon:before {
