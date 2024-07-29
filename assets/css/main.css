@@ -54,7 +54,7 @@ body.is-preloaded {
 		visibility: hidden;
 	  }
 	#loading-screen img {
-		width: 50px; /* Adjust logo size as needed */
+		width: 200px; /* Adjust logo size as needed */
 		height: auto;
 	  }
 
@@ -155,7 +155,7 @@ path {
 
 text {
 	font-family:'Times New Roman', Times, serif;
-	font-size: 5.22px;
+	font-size: 5.20px;
 	text-transform: uppercase;
 	fill: #ffffff;
 	font-weight: normal;
