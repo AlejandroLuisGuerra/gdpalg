@@ -74,18 +74,22 @@ const wrapper = document.getElementById('wrapper');
 
 	// img fade
 
-	$(document).ready(function() {
-		$('.image.main img').each(function() {
-		  var $img = $(this);
-		  if ($img[0].complete) {
-			$img.addClass('show');
+	document.addEventListener('DOMContentLoaded', function() {
+		var images = document.querySelectorAll('.image.main img');
+	  
+		images.forEach(function(img) {
+		  if (img.complete) {
+			img.classList.add('show');
+			console.log('Added show class to', img.src);
 		  } else {
-			$img.on('load', function() {
-			  $img.addClass('show');
+			img.addEventListener('load', function() {
+			  img.classList.add('show');
+			  console.log('Added show class to', img.src);
 			});
 		  }
 		});
 	  });
+
 
 
 
