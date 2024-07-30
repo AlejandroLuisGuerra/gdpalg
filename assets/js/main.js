@@ -3,6 +3,11 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+
+
+
+
 const loadingScreen = document.getElementById('loading-screen');
 const wrapper = document.getElementById('wrapper');
 
@@ -89,6 +94,9 @@ const wrapper = document.getElementById('wrapper');
 		  }
 		});
 	  });
+
+
+
 
 
 
@@ -441,7 +449,37 @@ const wrapper = document.getElementById('wrapper');
 						$main._show(location.hash.substr(1), true);
 					});
 
-					
-
-
+						// img slider gallery
+	/*document.addEventListener('DOMContentLoaded', function() {
+	let slideIndex = 0;
+	showSlides();
+	
+	function showSlides() {
+		let slides = document.querySelectorAll('.slide');
+		for (let i = 0; i < slides.length; i++) {
+			slides[i].style.opacity = 0;
+		}
+		slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}
+		slides[slideIndex-1].style.opacity = 1;
+		setTimeout(showSlides, 3000); // Change image every 3 seconds
+	}
+	
+	// Image zoom functionality
+	const modal = document.querySelector('.modal');
+	const modalImage = document.getElementById('modalImage');
+	const close = document.querySelector('.close');
+	
+	document.querySelectorAll('.slide img').forEach(img => {
+		img.addEventListener('click', function() {
+			modal.style.display = 'block';
+			modalImage.src = this.src;
+		});
+	});
+	
+	close.addEventListener('click', function() {
+		modal.style.display = 'none';
+	});
+	});
+*/
 })(jQuery);
