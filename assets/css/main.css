@@ -1832,8 +1832,8 @@ text {
 			}
 
 			#main article .close {
-				display: block;
-				position: absolute;
+				display: none;
+				position: fixed;
 				top: 0;
 				right: 0;
 				width: 4rem;
@@ -1842,6 +1842,8 @@ text {
 				text-indent: 4rem;
 				overflow: hidden;
 				white-space: nowrap;
+				z-index: 1000;
+				
 			}
 
 				#main article .close:before {
@@ -1870,6 +1872,47 @@ text {
 				#main article .close:active:before {
 					background-color: rgba(82, 82, 82, 0.175);
 				}
+/* Test X */
+				#main .close {
+					position: fixed; /* Fix the button to the viewport */
+					top: 1rem; /* Adjust position from the top of the viewport */
+					right: 1rem; /* Adjust position from the right of the viewport */
+					width: 4rem;
+					height: 4rem;
+					cursor: pointer;
+					text-indent: 4rem;
+					overflow: hidden;
+					white-space: nowrap;
+					z-index: 1000; /* Ensure it appears above other content */
+				}
+				
+				#main .close:before {
+					transition: background-color 0.4s ease-in-out;
+					content: '';
+					display: block;
+					position: absolute; /* Position relative to .close */
+					top: 0.75rem;
+					left: 0.75rem;
+					width: 2.5rem;
+					height: 2.5rem;
+					border-radius: 100%;
+					background-position: center;
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
+					background-size: 20px 20px;
+					background-repeat: no-repeat;
+				}
+				
+				#main .close:hover:before {
+					background-color: rgba(35, 35, 35, 0.699);
+				}
+				
+				#main .close:active:before {
+					background-color: rgba(82, 82, 82, 0.175);
+				}
+/* Test X */
+
+
+
 
 		@media screen and (max-width: 736px) {
 
