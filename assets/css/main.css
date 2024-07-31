@@ -1003,7 +1003,7 @@ text {
 		ul.actions li {
 			padding: 0 0 0 1rem;
 			vertical-align: middle;
-			width:max-content;
+			
 		}
 
 		ul.actions.special {
@@ -1236,7 +1236,7 @@ text {
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8rem;
-		font-weight: 300;
+		font-weight: 600;
 		height: 2.75rem;
 		letter-spacing: 0.2rem;
 		line-height: 2.75rem;
