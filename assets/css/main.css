@@ -315,7 +315,7 @@ text {
 	}
 
 	h2 {
-		font-size: 1.5rem;
+		font-size: 1.35rem;
 		line-height: 1.1;
 		letter-spacing: 0.18rem;
 	}
@@ -1003,6 +1003,7 @@ text {
 		ul.actions li {
 			padding: 0 0 0 1rem;
 			vertical-align: middle;
+			width:max-content;
 		}
 
 		ul.actions.special {
