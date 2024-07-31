@@ -1884,6 +1884,7 @@ text {
 					overflow: hidden;
 					white-space: nowrap;
 					z-index: 1000; /* Ensure it appears above other content */
+					background-color: transparent;
 				}
 				
 				#main .close:before {
@@ -1895,11 +1896,13 @@ text {
 					left: 0.75rem;
 					width: 2.5rem;
 					height: 2.5rem;
-					border-radius: 100%;
+					border-radius: 50%;
+					background-color: rgb(15, 15, 15);
 					background-position: center;
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
+					z-index: 1;
 				}
 				
 				#main .close:hover:before {
