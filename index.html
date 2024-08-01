@@ -16,7 +16,7 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	
-	
+
 	<body class="is-preload">
 		<div id="loading-screen">
 			<img src="images/skullinprogress.png" alt="Logo" class="logo">
@@ -178,7 +178,7 @@
 							
 							<!--<h2 class="major">Marketing Materials</h2>
 							<span class="image main"><img src="images/teatromarketingmockup1.webp" alt="" /></span>-->
-							<p style="margin: 0 auto; width: max-content;">- <b>Organization: </b>Teatro De Artes De Juan Seguin -</p>
+							<p style="margin: 0 auto; width: max-content;"><b>Organization: </b>Teatro De Artes De Juan Seguin</p>
 							<br><a href="teatrodesigns.html" class="padded-button">View work</a><br><br>
 							
 							</article>
@@ -236,7 +236,7 @@
 							<li><a href="#support" class=""><span class="label"><b>$</b></span></a></li>
 							
 						</ul><br><br>
-			
+						
 					</article>
 
 
@@ -265,11 +265,13 @@
 								
 								<span class="image main"><img src="images/digi web2.webp" alt="" /></span>
 
-								<br><a href="https://www.instagram.com/aluisworks/" class="padded-button">View Digital Work</a>
-								<br><br><br><br><br><h2 style="margin: 0 auto; width: max-content;" class="major">Analog Collage</h2>
+								<a href="https://www.instagram.com/aluisworks/" class="padded-button">View Digital Work</a>
+								<br>
+								<hr />
+								<br><h2 style="margin: 0 auto; width: max-content;" class="major">Analog Collage</h2>
 								
 								<span class="image main"><img src="images/analog web1.webp" alt="" /></span>
-								<br><a href="analog.html" class="padded-button">View Analog Work</a>
+								<a href="analog.html" class="padded-button">View Analog Work</a>
 								<br><br>
 					
 							</article>	
@@ -587,7 +589,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</section>
 
 							</article>
-
+							
 					</div>
 
 				<!-- Next Scroll -->
@@ -600,9 +602,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 
-
+				
 			</div>
-
+			
 		<!-- BG -->
 			<div id="bg"></div>
 
@@ -614,7 +616,27 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+			<script>
+				// Function to generate QR Code
+				function generateQRCode(text) {
+				  // Select the container where the QR code will be inserted
+				  const qrContainer = document.getElementById('qrcode');
+			  
+				  // Clear any previous QR code
+				  qrContainer.innerHTML = '';
+			  
+				  // Generate QR code and append it to the container
+				  QRCode.toCanvas(qrContainer, text, { width: 200, color: { dark: '#000', light: '#fff' } },function (error) {
+					if (error) console.error(error);
+					console.log('QR code generated!');
+				  });
+				}
+			  
+				// Call the function with your desired text
+				generateQRCode('https://aluisworks.com');
+			  </script>
 	</body>
 	
 </html>
