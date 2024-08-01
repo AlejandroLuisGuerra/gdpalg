@@ -449,6 +449,8 @@ const wrapper = document.getElementById('wrapper');
 						$main._show(location.hash.substr(1), true);
 					});
 
+
+
 						// img slider gallery
 	/*document.addEventListener('DOMContentLoaded', function() {
 	let slideIndex = 0;
