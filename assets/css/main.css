@@ -54,7 +54,7 @@ body.is-preloaded {
 		visibility: hidden;
 	  }
 	#loading-screen img {
-		width: 200px; /* Adjust logo size as needed */
+		width: 80px; /* Adjust logo size as needed */
 		height: auto;
 	  }
 
@@ -104,7 +104,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
+/*
 .circle-container {
 	width: 240px;
 	height: 240px;
@@ -120,7 +120,7 @@ input, select, textarea {
   }
 
 .outer-circle {
-	animation: rotate-slow 70s linear infinite; /* Slower rotation for the outer circle */
+	animation: rotate-slow 70s linear infinite;  Slower rotation for the outer circle 
   }
 
   .logo-container {
@@ -147,7 +147,7 @@ input, select, textarea {
 	  transform: translate(-50%, -50%) rotate(-360deg);
 	}
   }
-
+  
 path {
 	stroke: none;
 	fill: none;
@@ -160,7 +160,7 @@ text {
 	fill: #ffffff;
 	font-weight: normal;
 }
-
+*/
 
 .logo-container {
 	position: absolute;
